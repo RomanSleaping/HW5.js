@@ -69,6 +69,29 @@ switch (color) {
         effect = "stop"
         break 
         default: 
-        effect = nothing 
+        effect = "nothing"
 }
 console.log(effect)
+// 5
+const number = 16;
+const number2 = 4;
+const result = number * number2;
+switch (result) {
+    case number * number2:
+        console.log(result)
+        break;
+    case number / number2:
+        console.log(result)
+        break;
+    case number + number2:
+        console.log(result)
+        break;
+    case number - number2:
+        console.log(result)
+        break;
+    case number**number2:
+        console.log(result)
+        break;
+    default:
+        "have surgery"
+}
