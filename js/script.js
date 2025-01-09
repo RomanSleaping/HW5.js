@@ -76,22 +76,26 @@ console.log(effect)
 const number = 16;
 const number2 = 4;
 const result = number * number2;
-switch (result) {
-    case number * number2:
-        console.log(result)
+const operator = "*";
+switch (operator) {
+    case "*":
+    console.log(number * number2)
         break;
-    case number / number2:
-        console.log(result)
+    case "/":
+    console.log(number / number2)
         break;
-    case number + number2:
-        console.log(result)
+    case "+":
+    console.log(number + number2)
         break;
-    case number - number2:
-        console.log(result)
+    case "-":
+    console.log(number - number2)
         break;
-    case number**number2:
-        console.log(result)
+    case "%":
+    console.log(number % number2)
+        break;   
+    case "**":
+    console.log(number ** number2)
         break;
-    default:
-        "have surgery"
+    default: 
+    console.log(invalid)
 }
